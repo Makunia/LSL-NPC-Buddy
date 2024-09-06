@@ -1,0 +1,47 @@
+# Mefi's NPC Buddy configuration file!
+# January 2024 - mefistophiles Resident
+# 
+# This notecard allows you to define the default starting settings for your 
+# NPC. Simply add this card to the contents of your NPC along with the NPC Buddy
+# script and any animations you have defined.
+#---------------------------------------------------------------------------------------------------
+# Configuration Guide: (You can remove all the lines starting with # if you prefer a 
+#                                  shorter configuration file, these are for your reference)
+#
+#
+# npcName - Defines the name of the NPC displayed in the titler.
+# maxHealth - Defines the maximum health of the NPC.
+# currentHealth - Defines the current health of the NPC
+# titlerColor - Defines the color of the NPC's titler (using <R, G, B> SL formatting)
+# isVisible - Defines if your NPC will be visible by default (1 or 0)
+# textMode - Defines if you see text mode information at NPC start. (1 or 0)
+# channelOn - Defines if your NPC will show it's communication channel in the titler.  (1 or 0)
+#
+# Animation Settings (For Animesh Only):
+# dieAt0HP - Defines if your NPC will play the default Die animation (1 or 0, Animesh Only)
+# standByDefault - Defines if your NPC will animate with it's standing animation (1 or 0, Animesh Only)
+# animStandDesc - Allows you to override the "Stand" animation slot in the menu to something else.
+# animStandName - Name for the default "Stand" animation.
+# animFightDesc - Allows you to override the "Fight" animation slot in the menu to something else.
+# animFightName - Name for the default "Fight" animation, 
+# animDieDesc - Allows you to override the "Die" animation slot in the menu to something else.
+# animDieName - Name for the default "Die" animation, 
+#
+#
+#---------------------------------------------------------------------------------------------------
+#
+npcName An Animesh test NPC
+maxHealth 400
+currentHealth 400
+titlerColor <1.0,0.0,0.0>
+isVisible 1
+textMode 0
+channelOn 0
+dieAt0HP 1
+standByDefault 1
+animStandDesc Stand
+animStandName STAND_RB-01
+animFightDesc Fight
+animFightName Fight
+animDieDesc Die
+animDieName death-correct
